@@ -1,5 +1,7 @@
 # Mini Jame Gam 8
 
+Play it on http://loys.me:4242
+
 # Credits
 
 
