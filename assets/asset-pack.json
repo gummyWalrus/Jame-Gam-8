@@ -1,0 +1,218 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": [
+                    "assets/attack.ogg"
+                ],
+                "type": "audio",
+                "key": "attack"
+            },
+            {
+                "url": "assets/Attack.png",
+                "frameConfig": {
+                    "frameWidth": 150,
+                    "frameHeight": 150,
+                    "startFrame": 0,
+                    "endFrame": 7,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Attack"
+            },
+            {
+                "url": "assets/BG1.png",
+                "type": "image",
+                "key": "BG1"
+            },
+            {
+                "url": "assets/BG2.png",
+                "type": "image",
+                "key": "BG2"
+            },
+            {
+                "url": "assets/BG3.png",
+                "type": "image",
+                "key": "BG3"
+            },
+            {
+                "url": "assets/blue_flower.png",
+                "type": "image",
+                "key": "blue_flower"
+            },
+            {
+                "url": "assets/cube_atk.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "cube_atk"
+            },
+            {
+                "url": "assets/Death.png",
+                "frameConfig": {
+                    "frameWidth": 150,
+                    "frameHeight": 150,
+                    "startFrame": 0,
+                    "endFrame": 3,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Death"
+            },
+            {
+                "url": "assets/float mage hit.png",
+                "type": "image",
+                "key": "float mage hit"
+            },
+            {
+                "url": "assets/float_mage_atk.png",
+                "frameConfig": {
+                    "frameWidth": 100,
+                    "frameHeight": 100,
+                    "startFrame": 0,
+                    "endFrame": 3,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "float_mage_atk"
+            },
+            {
+                "url": "assets/float_mage_idle.png",
+                "frameConfig": {
+                    "frameWidth": 100,
+                    "frameHeight": 100,
+                    "startFrame": 0,
+                    "endFrame": 11,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "float_mage_idle"
+            },
+            {
+                "url": "assets/float_mage_idle-nocube.png",
+                "frameConfig": {
+                    "frameWidth": 100,
+                    "frameHeight": 100,
+                    "startFrame": 0,
+                    "endFrame": 11,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "float_mage_idle-nocube"
+            },
+            {
+                "url": "assets/gameover.png",
+                "type": "image",
+                "key": "gameover"
+            },
+            {
+                "url": "assets/heal_potion.png",
+                "type": "image",
+                "key": "heal_potion"
+            },
+            {
+                "url": "assets/Idle.png",
+                "frameConfig": {
+                    "frameWidth": 150,
+                    "frameHeight": 150,
+                    "startFrame": 0,
+                    "endFrame": 3,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Idle"
+            },
+            {
+                "url": [
+                    "assets/sounds/jump.ogg"
+                ],
+                "type": "audio",
+                "key": "jump"
+            },
+            {
+                "url": "assets/mage_walk.png",
+                "frameConfig": {
+                    "frameWidth": 100,
+                    "frameHeight": 100,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "mage_walk"
+            },
+            {
+                "url": "assets/mage_walk-nocube.png",
+                "frameConfig": {
+                    "frameWidth": 100,
+                    "frameHeight": 100,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "mage_walk-nocube"
+            },
+            {
+                "url": "assets/mana_potion.png",
+                "type": "image",
+                "key": "mana_potion"
+            },
+            {
+                "url": "assets/map.json",
+                "type": "tilemapTiledJSON",
+                "key": "map"
+            },
+            {
+                "url": [
+                    "assets/sounds/pickup_1.ogg"
+                ],
+                "type": "audio",
+                "key": "pickup_1"
+            },
+            {
+                "url": "assets/red_flower.png",
+                "type": "image",
+                "key": "red_flower"
+            },
+            {
+                "url": [
+                    "assets/sounds/shoot.ogg"
+                ],
+                "type": "audio",
+                "key": "shoot"
+            },
+            {
+                "url": "assets/Tileset.png",
+                "type": "image",
+                "key": "Tileset"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

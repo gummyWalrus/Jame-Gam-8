@@ -1,0 +1,95 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 3200,
+        "borderHeight": 3200
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "f2ba687a-e0af-484c-a7de-c3a9c5d5c9f8",
+            "label": "manaPotion",
+            "components": [],
+            "texture": {
+                "key": "mana_potion"
+            },
+            "x": 463,
+            "y": 137,
+            "width": 32,
+            "height": 32
+        },
+        {
+            "type": "Sprite",
+            "id": "a3fb9462-5a4a-4f87-8461-86cbeac52cc7",
+            "label": "manaDrop",
+            "components": [],
+            "texture": {
+                "key": "blue_flower"
+            },
+            "x": 389,
+            "y": 127
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "46b19b1e-d333-4bb4-a1d4-9293cd6e5358",
+            "label": "layer",
+            "scope": "CLASS",
+            "components": [],
+            "tilemapId": "ca2e47f2-2d44-46b5-8ee0-a59c66e1533f",
+            "layerName": "Tile Layer 1",
+            "tilesets": [
+                "Tileset"
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "be838d83-e5e5-4f8d-be43-245968ae3057",
+            "label": "bg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Background"
+            },
+            "x": 303,
+            "y": 3038
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "ca2e47f2-2d44-46b5-8ee0-a59c66e1533f",
+            "type": "Tilemap",
+            "label": "map",
+            "key": "map",
+            "tilesets": [
+                {
+                    "name": "Tileset",
+                    "imageKey": "Tileset"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "f605c860-44eb-4910-b55c-51c70557b63a",
+            "label": "list"
+        },
+        {
+            "id": "d40da17c-13b8-4622-ab4f-e1691c983408",
+            "label": "redList"
+        },
+        {
+            "id": "12f8a747-1b66-4b1a-944c-15a6668daf38",
+            "label": "blueList"
+        }
+    ]
+}

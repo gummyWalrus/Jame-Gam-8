@@ -1,0 +1,61 @@
+{
+    "id": "65ec0bba-e86d-464f-b46c-303eca7e20c8",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "UI",
+        "borderWidth": 3200,
+        "borderHeight": 3200
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "78f9607e-afd2-4b5e-8352-021cd2fea3f0",
+            "label": "Mana",
+            "scope": "PUBLIC",
+            "components": [],
+            "x": 63,
+            "y": 71,
+            "text": "100",
+            "fontSize": "50px",
+            "color": "#2398ecff"
+        },
+        {
+            "type": "TileSprite",
+            "id": "a5ca6681-130a-4a5d-9306-4072169766e4",
+            "label": "Potion",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "mana_potion",
+                "frame": 0
+            },
+            "x": 47,
+            "y": 49,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 32,
+            "height": 32
+        },
+        {
+            "type": "Text",
+            "id": "c96314aa-d431-4cca-a933-faefafee5163",
+            "label": "HP",
+            "scope": "PUBLIC",
+            "components": [],
+            "x": 67,
+            "y": 139,
+            "text": "100",
+            "fontSize": "50px",
+            "color": "#c54444ff"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
